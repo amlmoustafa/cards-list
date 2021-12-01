@@ -1,5 +1,5 @@
 import React from "react";
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const StyledMenu = styled.nav`
   display: flex;
@@ -43,24 +43,8 @@ const StyledMenu = styled.nav`
 export const Header = ({ open }) => {
   return (
     <StyledMenu open={open}>
-      <a href="/">
-        <span role="img" aria-label="about us">
-          💁🏻‍♂️
-        </span>
-        About us
-      </a>
-      <a href="/">
-        <span role="img" aria-label="price">
-          💸
-        </span>
-        Pricing
-      </a>
-      <a href="/">
-        <span role="img" aria-label="contact">
-          📩
-        </span>
-        Contact
-      </a>
+      <a href="/">Home</a>
+      <a href="/">Add Post</a>
     </StyledMenu>
   );
 };
@@ -76,7 +60,6 @@ const StyledBurger = styled.button`
   height: 2rem;
   background: transparent;
   border: none;
-  cursor: pointer;
   padding: 0;
   z-index: 10;
 
@@ -116,20 +99,4 @@ export const Burger = ({ open, setOpen }) => {
       <div />
     </StyledBurger>
   );
-};
-
-const useOnClickOutside = (ref, handler) => {
-  React.useEffect(() => {
-    const listener = (event) => {
-      if (!ref.current || ref.current.contains(event.target)) {
-        return;
-      }
-      handler(event);
-    };
-    document.addEventListener("mousedown", listener);
-
-    return () => {
-      document.removeEventListener("mousedown", listener);
-    };
-  }, [ref, handler]);
 };
