@@ -17,7 +17,7 @@ const CardsContainer = () => {
     <Fragment>
       <Container>
         <Cards cardsList={displayedArticles} />
-        <Grid container className={classes.centeredShowAllButton}>
+        <Grid container className={classes.centeredLoadAllBtn}>
           <Button
             onClick={() => {
               setDisplayedCardCount(
@@ -28,7 +28,7 @@ const CardsContainer = () => {
             variant="contained"
             className={classes.showAllButton}
           >
-            Show More
+            Load More
           </Button>
         </Grid>
       </Container>
