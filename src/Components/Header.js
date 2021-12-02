@@ -3,9 +3,10 @@ import styled from "styled-components";
 
 const StyledMenu = styled.nav`
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
-  background: #effffa;
+  background: #000;
   transform: ${({ open }) => (open ? "translateX(0)" : "translateX(-100%)")};
   height: 100vh;
   text-align: left;
@@ -25,9 +26,13 @@ const StyledMenu = styled.nav`
     padding: 2rem 0;
     font-weight: bold;
     letter-spacing: 0.5rem;
-    color: #0d0c1d;
+    color: #fff;
     text-decoration: none;
     transition: color 0.3s linear;
+    text-align: center;
+    border: 1px solid;
+    width: 25%;
+    margin: 25px auto;
 
     @media (max-width: 576px) {
       font-size: 1.5rem;
@@ -35,7 +40,8 @@ const StyledMenu = styled.nav`
     }
 
     &:hover {
-      color: #343078;
+      color: #000;
+      background: #fff;
     }
   }
 `;
@@ -70,7 +76,7 @@ const StyledBurger = styled.button`
   div {
     width: 2rem;
     height: 0.25rem;
-    background: ${({ open }) => (open ? "#0D0C1D" : "#EFFFFA")};
+    background: ${({ open }) => (open ? "#FFFFFF" : "#EFFFFA")};
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;

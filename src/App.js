@@ -17,7 +17,6 @@ function App() {
           <Burger open={open} setOpen={setOpen} />
           <Header open={open} setOpen={setOpen} />
         </div>
-        <CardsContainer />
         <Switch>
           <Route path="/" element={<CardsContainer />} />
         </Switch>

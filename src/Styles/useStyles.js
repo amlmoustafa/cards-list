@@ -1,18 +1,24 @@
 import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles(() => ({
-  appContainer: {},
+  appContainer: {
+    backgroundColor: "#000000",
+  },
   bgImage: {
-    backgroundImage: `url("http://www.javascriptkit.com/dhtmltutors/cursor-hand.gif")`,
+    backgroundImage: `url("https://interview.blockgemini.dev/img/bg.ec675d54.png")`,
     width: "100%",
+    height: "100vh",
     position: "relative",
   },
   bgOverlay: {
-    backgroundColor: "#34343487 ",
-    height: "100vh",
     position: "absolute",
-    top: 80,
-    right: 15,
+    top: 0,
+    bottom: 0,
+    left: 0,
+    right: 0,
+    height: "100%",
+    width: "100%",
+    transition: ".5s ease",
   },
 }));
 
