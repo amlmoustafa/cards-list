@@ -2,203 +2,123 @@ export const cardsJson = {
   articles: [
     {
       id: 1,
-      title: "Egyptian Sports Industry",
-      description: "",
+      title: "Lorem Ipsum Is Simply Dummy Value",
       urlToImage:
-        "https://images.unsplash.com/photo-1549380198-80b69c4a0e85?ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80",
-      publishedAt: "2020-09-14T07:54:00Z",
-      content:
-        "qui qui deserunt expedita at\nprovident sequi veritatis sit qui nam tempora mollitia ratione\ncorporis vitae rerum pariatur unde deleniti ut eos ad\naut non quae nisi saepe",
+        "https://images.unsplash.com/photo-1586289948296-c577c3e97953?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
     },
     {
       id: 2,
-      title: "nesciunt numquam alias doloremque minus ipsam optio",
-      description: "",
+      title: "Lorem Ipsum Is Simply Dummy Value",
       urlToImage:
         "https://images.unsplash.com/photo-1549380198-80b69c4a0e85?ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80",
-      publishedAt: "2020-09-14T08:45:36Z",
-      content:
-        "eos hic deserunt necessitatibus sed iciatis numquam est sapiente quaerat\n",
     },
     {
       id: 3,
-      title: "impedit autem distinctio omnis",
-      description: "",
+      title: "Lorem Ipsum Is Simply Dummy Value",
       urlToImage:
-        "https://images.unsplash.com/photo-1549380198-80b69c4a0e85?ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80",
-      publishedAt: "2020-09-13T21:54:31Z",
-      content:
-        "adipisci et accusantium hic deserunt voluptates consequatur omnis\nquod dolorem voluptatibus quis velit laboriosam mollitia illo et\niure aliquam dolorem nesciunt laborum\naperiam labore repellat et maxime itaque",
+        "https://images.unsplash.com/photo-1579033385971-a7bc8c6f8c64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
     },
     {
       id: 4,
-      title: "assumenda quia sint",
-      description: "",
+      title: "Lorem Ipsum Dummy Data",
       urlToImage:
-        "https://images.unsplash.com/photo-1549380198-80b69c4a0e85?ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80",
-      publishedAt: "2020-09-13T19:54:31Z",
-      content:
-        "adipisci et accusantium hic deserunt voluptates consequatur dolorem voluptatibus quis velit laboriosam mollitia illo et\niure aliquam dolorem nesciunt laborum\naperiam labore repellat et maxime itaque",
+        "https://images.unsplash.com/photo-1542377366-649a235cdd24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=570&q=80",
     },
     {
       id: 5,
-      title: "impedit autem distinctio omnis ipsam voluptas eaque",
-      description: "",
+      title: "Lorem Ipsum Dummy Data",
       urlToImage:
-        "https://images.unsplash.com/photo-1549380198-80b69c4a0e85?ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80",
-      publishedAt: "2020-09-13T19:40:31Z",
-      content:
-        "consequatur omnis\nquod dolorem voluptatibus quis velit laboriosam mollitia illo et\niure aliquam dolorem nesciunt laborum\naperiam labore repellat et maxime itaque",
+        "https://images.unsplash.com/photo-1583690033504-6f5a7970550a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=645&q=80",
     },
     {
       id: 6,
-      title: "nam praesentium est ipsa libero aut",
-      description: "",
+      title: "Lorem Ipsum Is Simply Dummy Value",
       urlToImage:
-        "https://images.unsplash.com/photo-1549380198-80b69c4a0e85?ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80",
-      publishedAt: "2020-09-10T11:40:31Z",
-      content:
-        "consequatur omnis\nquod dolorem voluptatibus quis velit laboriosam mollitia abore repellat et maxime itaque",
+        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
     },
     {
       id: 7,
-      title: "Katarina.Wolff@joel.io",
-      description: "",
+      title: "Lorem Ipsum Dummy Data",
       urlToImage:
-        "https://images.unsplash.com/photo-1549380198-80b69c4a0e85?ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80",
-      publishedAt: "2020-09-10T11:40:31Z",
-      content:
-        "molestias incidunt eaque\nnumquam reprehenderit rerum ut ex ad\nomnis porro maiores quaerat harum nihil non quasi ea\nasperiores quisquam sunt fugiat eos ",
+        "https://images.unsplash.com/photo-1573384424320-64a6da7ca74f?ixlib=rb-1.2.1&auto=format&fit=crop&w=617&q=80",
     },
     {
       id: 8,
-      title: "nihil ad debitis rerum optio est cumque",
-      description: "",
+      title: "Lorem Ipsum Is Simply Dummy Value",
       urlToImage:
-        "https://images.unsplash.com/photo-1549380198-80b69c4a0e85?ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80",
-      publishedAt: "2020-09-10T11:40:31Z",
-      content:
-        "quia non dolor\ncorporis consectetur velit eos quis\nincidunt ut eos nesciunt repellendus voluptas voluptate sint neque\ndoloribus est minima autem quis velit illo",
+        "https://images.unsplash.com/photo-1548845603-0daa21c2dcce?ixlib=rb-1.2.1&auto=format&fit=crop&w=660&q=80",
     },
     {
       id: 9,
-      title: "aspernatur ex dolor optio",
-      description: "",
+      title: "Lorem Ipsum Is Simply Dummy Value",
       urlToImage:
-        "https://images.unsplash.com/photo-1549380198-80b69c4a0e85?ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80",
-      publishedAt: "2020-09-10T11:40:31Z",
-      content:
-        "explicabo harum optio\ndolor dolores reprehenderit in\na itaque odit esse et et id\npossimus est ut consequuntur velit autem illo",
+        "https://images.unsplash.com/photo-1523591561381-46ccd0101425?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
     },
     {
       id: 10,
-      title: "cumque consequuntur excepturi consequatur consequatur est",
-      description: "",
+      title: "Lorem Ipsum Is Simply Dummy Value",
       urlToImage:
-        "https://images.unsplash.com/photo-1549380198-80b69c4a0e85?ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80",
-      publishedAt: "2020-09-10T11:40:31Z",
-      content:
-        "ut in nostrum\nut et incidunt et minus nulla perferendis libero delectus\nnulla nemo deleniti\ndeleniti facere autem vero velit non molestiae assumenda",
+        "https://images.unsplash.com/photo-1586289948296-c577c3e97953?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
     },
     {
       id: 11,
-      title: "Egyptian Sports Industry",
-      description: "",
+      title: "Lorem Ipsum Is Simply Dummy Value",
       urlToImage:
         "https://images.unsplash.com/photo-1549380198-80b69c4a0e85?ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80",
-      publishedAt: "2020-07-17T07:54:00Z",
-      content:
-        "qui qui deserunt expedita at\nprovident sequi veritatis sit qui nam tempora mollitia ratione\ncorporis vitae rerum pariatur unde deleniti ut eos ad\naut non quae nisi saepe",
     },
     {
       id: 12,
-      title: "nesciunt numquam alias doloremque minus ipsam optio",
-      description: "",
+      title: "Lorem Ipsum Is Simply Dummy Value",
       urlToImage:
-        "https://images.unsplash.com/photo-1549380198-80b69c4a0e85?ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80",
-      publishedAt: "2020-05-14T08:30:36Z",
-      content:
-        "eos hic deserunt necessitatibus sed iciatis numquam est sapiente quaerat\n",
+        "https://images.unsplash.com/photo-1579033385971-a7bc8c6f8c64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
     },
     {
       id: 13,
-      title: "impedit autem distinctio omnis",
-      description: "",
+      title: "Lorem Ipsum Is Simply Dummy Value",
       urlToImage:
-        "https://images.unsplash.com/photo-1548845603-0daa21c2dcce?ixlib=rb-1.2.1&auto=format&fit=crop&w=660&q=80",
-      publishedAt: "2020-05-13T21:54:31Z",
-      content:
-        "adipisci et accusantium hic deserunt voluptates consequatur omnis\nquod dolorem voluptatibus quis velit laboriosam mollitia illo et\niure aliquam dolorem nesciunt laborum\naperiam labore repellat et maxime itaque",
+        "https://images.unsplash.com/photo-1542377366-649a235cdd24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=570&q=80",
     },
     {
       id: 14,
-      title: "assumenda quia sint",
-      description: "",
+      title: "Lorem Ipsum Is Simply Dummy Value",
       urlToImage:
-        "https://images.unsplash.com/photo-1548845603-0daa21c2dcce?ixlib=rb-1.2.1&auto=format&fit=crop&w=660&q=80",
-      publishedAt: "2020-11-13T10:34:31Z",
-      content:
-        "adipisci et accusantium hic deserunt voluptates consequatur dolorem voluptatibus quis velit laboriosam mollitia illo et\niure aliquam dolorem nesciunt laborum\naperiam labore repellat et maxime itaque",
+        "https://images.unsplash.com/photo-1583690033504-6f5a7970550a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=645&q=80",
     },
     {
       id: 15,
-      title: "impedit autem distinctio omnis ipsam voluptas eaque",
-      description: "",
+      title: "Lorem Ipsum Is Simply Dummy Value",
       urlToImage:
-        "https://images.unsplash.com/photo-1548845603-0daa21c2dcce?ixlib=rb-1.2.1&auto=format&fit=crop&w=660&q=80",
-      publishedAt: "2020-06-13T13:40:31Z",
-      content:
-        "consequatur omnis\nquod dolorem voluptatibus quis velit laboriosam mollitia illo et\niure aliquam dolorem nesciunt laborum\naperiam labore repellat et maxime itaque",
+        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
     },
     {
       id: 16,
-      title: "nam praesentium est ipsa libero aut",
-      description: "",
+      title: "Lorem Ipsum Is Simply Dummy Value",
       urlToImage:
         "https://images.unsplash.com/photo-1548845603-0daa21c2dcce?ixlib=rb-1.2.1&auto=format&fit=crop&w=660&q=80",
-      publishedAt: "2020-07-10T11:40:31Z",
-      content:
-        "consequatur omnis\nquod dolorem voluptatibus quis velit laboriosam mollitia abore repellat et maxime itaque",
     },
     {
       id: 17,
-      title: "Katarina.Wolff@joel.io",
-      description: "",
+      title: "Lorem Ipsum Is Simply Dummy Value",
       urlToImage:
         "https://images.unsplash.com/photo-1548845603-0daa21c2dcce?ixlib=rb-1.2.1&auto=format&fit=crop&w=660&q=80",
-      publishedAt: "2020-02-10T16:40:31Z",
-      content:
-        "molestias incidunt eaque\nnumquam reprehenderit rerum ut ex ad\nomnis porro maiores quaerat harum nihil non quasi ea\nasperiores quisquam sunt fugiat eos ",
     },
     {
       id: 18,
-      title: "nihil ad debitis rerum optio est cumque",
-      description: "",
+      title: "Lorem Ipsum Is Simply Dummy Value",
       urlToImage:
         "https://images.unsplash.com/photo-1548845603-0daa21c2dcce?ixlib=rb-1.2.1&auto=format&fit=crop&w=660&q=80",
-      publishedAt: "2020-02-10T11:40:31Z",
-      content:
-        "quia non dolor\ncorporis consectetur velit eos quis\nincidunt ut eos nesciunt repellendus voluptas voluptate sint neque\ndoloribus est minima autem quis velit illo",
     },
     {
       id: 19,
-      title: "aspernatur ex dolor optio",
-      description: "",
+      title: "Lorem Ipsum Is Simply Dummy Value",
       urlToImage:
-        "https://images.unsplash.com/photo-1548845603-0daa21c2dcce?ixlib=rb-1.2.1&auto=format&fit=crop&w=660&q=80",
-      publishedAt: "2020-03-10T06:40:31Z",
-      content:
-        "explicabo harum optio\ndolor dolores reprehenderit in\na itaque odit esse et et id\npossimus est ut consequuntur velit autem illo",
+        "https://images.unsplash.com/photo-1523591561381-46ccd0101425?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
     },
     {
       id: 20,
-      title: "cumque consequuntur excepturi consequatur consequatur est",
-      description: "",
+      title: "Lorem Ipsum Is Simply Dummy Value",
       urlToImage:
         "https://images.unsplash.com/photo-1548845603-0daa21c2dcce?ixlib=rb-1.2.1&auto=format&fit=crop&w=660&q=80",
-      publishedAt: "2020-03-10T12:00:31Z",
-      content:
-        "ut in nostrum\nut et incidunt et minus nulla perferendis libero delectus\nnulla nemo deleniti\ndeleniti facere autem vero velit non molestiae assumenda",
     },
   ],
 };

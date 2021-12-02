@@ -11,11 +11,14 @@ function App() {
   return (
     <Router>
       <div className={classes.appContainer}>
-        <div className={classes.bgImage}></div>
-        <div className={classes.bgOverlay}></div>
-        <div ref={node}>
-          <Burger open={open} setOpen={setOpen} />
-          <Header open={open} setOpen={setOpen} />
+        <div className={classes.bgImage}>
+          <CardsContainer />
+        </div>
+        <div className={classes.bgOverlay}>
+          <div ref={node}>
+            <Burger open={open} setOpen={setOpen} />
+            <Header open={open} setOpen={setOpen} />
+          </div>
         </div>
         <Switch>
           <Route path="/" element={<CardsContainer />} />
