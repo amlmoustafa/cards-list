@@ -4,6 +4,7 @@ import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import { Burger, Header } from "./Components/Header";
 import useStyles from "./Styles/useStyles";
 import { createTheme, ThemeProvider } from "@mui/material";
+import logoImage from "./Images/logo.png";
 
 function App() {
   const [open, setOpen] = React.useState(false);
@@ -27,6 +28,11 @@ function App() {
             <div ref={node}>
               <Burger open={open} setOpen={setOpen} />
               <Header open={open} setOpen={setOpen} />
+              <img
+                className={classes.logoImage}
+                src={logoImage}
+                alt="logo"
+              />
             </div>
           </div>
           <Switch>

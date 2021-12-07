@@ -7,6 +7,7 @@ const CardStyles = makeStyles(() => ({
   },
   cardContainer: {
     display: "flex",
+    paddingTop: 50,
   },
   postCard: {
     display: "flex",

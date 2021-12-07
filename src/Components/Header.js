@@ -7,7 +7,7 @@ const StyledMenu = styled.nav`
   flex-direction: column;
   justify-content: center;
   background: #000;
-  transform: ${({ open }) => (open ? "translateX(0)" : "translateX(-100%)")};
+  transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
   height: 100vh;
   text-align: left;
   padding: 2rem;
@@ -56,8 +56,8 @@ export const Header = ({ open }) => {
 };
 
 const StyledBurger = styled.button`
-  position: absolute;
-  top: 5%;
+  position: fixed;
+  top: 10%;
   left: 2rem;
   display: flex;
   flex-direction: column;
@@ -68,6 +68,7 @@ const StyledBurger = styled.button`
   border: none;
   padding: 0;
   z-index: 10;
+  left: 95%;
 
   &:focus {
     outline: none;

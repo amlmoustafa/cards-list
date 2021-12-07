@@ -12,6 +12,12 @@ const useStyles = makeStyles(() => ({
     backgroundSize: "cover",
     backgroundColor: "#000",
   },
+  logoImage: {
+    height: 50,
+    position: "absolute",
+    top: 0,
+    margin: 30,
+  },
 }));
 
 export default useStyles;
