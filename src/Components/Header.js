@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import useStyles from "../Styles/useStyles";
 
 const StyledMenu = styled.nav`
   display: flex;
@@ -15,6 +16,7 @@ const StyledMenu = styled.nav`
   top: 0;
   left: 0;
   transition: transform 0.3s ease-in-out;
+  z-index: 9;
 
   @media (max-width: 576px) {
     width: 100%;
@@ -99,11 +101,14 @@ const StyledBurger = styled.button`
 `;
 
 export const Burger = ({ open, setOpen }) => {
+  const classes = useStyles();
   return (
-    <StyledBurger open={open} onClick={() => setOpen(!open)}>
-      <div />
-      <div />
-      <div />
-    </StyledBurger>
+    <div className={classes.burgerContainerr}>
+      <StyledBurger open={open} onClick={() => setOpen(!open)}>
+        <div />
+        <div />
+        <div />
+      </StyledBurger>
+    </div>
   );
 };

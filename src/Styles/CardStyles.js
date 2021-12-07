@@ -20,6 +20,10 @@ const CardStyles = makeStyles(() => ({
   cardImg: {
     height: "100%",
     position: "relative",
+    "&:hover": {
+      transform: "translate(0px, 0px)",
+      width: 300,
+    },
   },
   postTitleTxt: {
     position: "absolute",
