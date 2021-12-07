@@ -7,7 +7,7 @@ const useStyles = makeStyles(() => ({
   bgImage: {
     backgroundImage: `url("https://interview.blockgemini.dev/img/bg.ec675d54.png")`,
     width: "100%",
-    height: "100vh",
+    height: "100%",
     position: "relative",
     backgroundSize: "cover",
     backgroundColor: "#000",

@@ -1,9 +1,9 @@
 import React, { Fragment, useMemo, useState } from "react";
 import { Button, Grid } from "@mui/material";
-import CardStyles from "../Styles/CardStyles";
 import Cards from "./Cards";
 import { cardsJson } from "../CardsData/cardsJson";
 import Container from "@mui/material/Container";
+import CardStyles from "../Styles/CardStyles";
 
 const CardsContainer = () => {
   const classes = CardStyles();
@@ -26,9 +26,9 @@ const CardsContainer = () => {
             }}
             id="submitButton"
             variant="contained"
-            className={classes.showAllButton}
+            className={classes.loadMoreButton}
           >
-            Load More
+            Load More...
           </Button>
         </Grid>
       </Container>

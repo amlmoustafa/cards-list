@@ -1,7 +1,11 @@
 import React, { Fragment } from "react";
 import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
-import { CardActionArea, Grid, Typography } from "@mui/material";
+import {
+  CardActionArea,
+  Grid,
+  Typography,
+} from "@mui/material";
 import CardStyles from "../Styles/CardStyles";
 
 const Cards = ({ cardsList }) => {

@@ -10,7 +10,7 @@ const CardStyles = makeStyles(() => ({
   },
   postCard: {
     display: "flex",
-    justifyContent: "space-between",
+    justifyContent: "center",
   },
   card: {
     width: "90%",
@@ -29,6 +29,15 @@ const CardStyles = makeStyles(() => ({
   cardActionArea: {
     height: "100%",
     display: "flex",
+  },
+  loadMoreButton: {
+    margin: "40px 0px !important",
+    backgroundColor: "black !important",
+    border: "1px solid #fff !important",
+    padding: "20px !important",
+    width: 280,
+    fontSize: "20px !important",
+    fontWeight: "bold !important",
   },
 }));
 
