@@ -22,13 +22,12 @@ const CardStyles = makeStyles(() => ({
     position: "relative",
     "&:hover": {
       transform: "translate(0px, 0px)",
-      width: 300,
     },
   },
   postTitleTxt: {
     position: "absolute",
     padding: 15,
-    top: 370,
+    top: 400,
     color: "white",
   },
   cardActionArea: {
